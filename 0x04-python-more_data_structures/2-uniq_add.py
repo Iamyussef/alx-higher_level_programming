@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-def square_matrix_simple(matrix=[]):
-    return([list(map(lambda x: x * x, row)) for row in matrix])
+def uniq_add(my_list=[]):
+    return sum(set(my_list))
